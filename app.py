@@ -19,7 +19,7 @@ image = Image.open(image_path)
 resized_image = image 
 
 # Display the resized image
-st.image(resized_image, caption='credit ease', width=500)
+st.image(resized_image, caption='credit ease', width=400,use_column_width=True)
 
 
 
